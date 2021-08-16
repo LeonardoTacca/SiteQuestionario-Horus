@@ -1,0 +1,111 @@
+.DivSucesso {
+  width: 90%;
+  margin-top: 3%;
+  text-decoration: none;
+  background-color: #da6607;
+  font-size: 15pt;
+  color: black;
+  padding: 10px;
+  border-radius: 22px;
+  max-width: 90%;
+  margin-left: 5%;
+}
+.Sucesso {
+  background-color: #da6607;
+}
+.DivRespostaGeral {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.DivEnunciadoCursos {
+  margin-top: 2%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.ImgCursosEdf {
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/EdfHorus.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ImgCursosDanca {
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/Dança-Horus.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ContainerImgCursos {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.DivEnunciadoinscricaoSite {
+  margin-top: 1%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+@media (max-width: 320px) {
+  .DivSucesso {
+    font-size: 10px;
+  }
+  .DivEnunciadoinscricaoSite {
+    margin-top: 5px;
+  }
+  .ContainerImgCursos {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+  }
+  .ImgCursosDanca {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+  }
+  .ImgCursosEdf {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 768px) {
+  .DivSucesso {
+    margin-left: 5%;
+    font-size: 10px;
+    width: 100%;
+    display: inline;
+  }
+  .DivEnunciadoinscricaoSite {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .h5 {
+    font-size: 12px;
+  }
+  .ContainerImgCursos {
+    height: 150px;
+  }
+  .ImgCursosDanca {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .ImgCursosEdf {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+  }
+}

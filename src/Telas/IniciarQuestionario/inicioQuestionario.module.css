@@ -1,0 +1,106 @@
+.ContainerGeralInicioQuestionario {
+  width: 100%;
+  height: 88%;
+  background-color: rgb(226, 223, 223);
+  display: flex;
+  position: absolute;
+  justify-content: top;
+  flex-direction: column;
+}
+.ContainerEnunciadoQuestionario {
+  justify-content: center;
+  height: 15%;
+  display: flex;
+}
+.TextoEnunciadoQuestionario {
+  margin-top: 1%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 150%;
+}
+.labelEnunciado {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 150%;
+}
+.ContainerForm {
+  display: flex;
+  margin-top: 2%;
+  width: 100%;
+  justify-content: center;
+}
+.FormInputs {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputs {
+  margin-top: 2%;
+  width: 100%;
+}
+.ContainerBTNiniciarQuestionario {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+}
+.BTNiniciarQuestionario {
+  width: 50%;
+  height: 50px;
+  background-color: rgb(218, 102, 7);
+  border-radius: 5px;
+  color: black;
+  font-size: large;
+}
+.inputInicioQuestionario {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid white;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 425px) {
+  html {
+    font-size: 50%;
+  }
+  .FormInputs {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .labelEnunciado {
+    margin-left: 5px;
+  }
+  .ContainerEnunciadoQuestionario {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 10%;
+  }
+}
+@media (max-width: 320px) {
+  html {
+    font-size: 50%;
+  }
+  .FormInputs {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .labelEnunciado {
+    margin-left: 5px;
+  }
+  .ContainerEnunciadoQuestionario {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 10%;
+  }
+}

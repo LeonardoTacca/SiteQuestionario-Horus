@@ -1,0 +1,40 @@
+.DivGeralTermosDeUso {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.TextoTermosdeUso {
+  font-size: 25px;
+}
+@media (max-width: 1024px) {
+  .DivGeralTermosDeUso {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .TextoTermosdeUso {
+    font-size: 15px;
+  }
+
+  @media (max-width: 320px) {
+    .DivGeralTermosDeUso {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .TextoTermosdeUso {
+      font-size: 10px;
+    }
+  }
+}

@@ -1,0 +1,190 @@
+.DivSucesso {
+  margin-top: 3%;
+  text-decoration: none;
+  background-color: #da6607;
+  font-size: 15pt;
+  color: black;
+  padding: 10px;
+  border-radius: 22px;
+  max-width: 90%;
+  margin-left: 5%;
+}
+.Sucesso {
+  background-color: #da6607;
+}
+.DivRespostaGeral {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.DivEnunciadoCursos {
+  margin-top: 2%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.ImgCursosContabeis {
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/ContabeisHorus.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ImgCursosDireito {
+  margin-left: 5px;
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/DireitoHorus.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ContainerImgCursos {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+}
+.DivEnunciadoinscricaoSite {
+  margin-top: 1%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+.ImgCursosEngCivil {
+  margin-left: 5px;
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/EngCivil.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.ImgCursosEngProd {
+  margin-left: 5px;
+  display: inline-flex;
+  justify-content: center;
+  width: 400px;
+  height: 300px;
+  background-image: url("../../../img/EngProd.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media (max-width: 320px) {
+  .DivSucesso {
+    font-size: 10px;
+  }
+  .DivEnunciadoinscricaoSite {
+    margin-top: 5px;
+  }
+  .ContainerImgCursos {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+  }
+  .ImgCursosEngCivil {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0px;
+  }
+  .ImgCursosEngProd {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .ImgCursosDireito {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .ImgCursosContabeis {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 375px) {
+  .DivSucesso {
+    font-size: 10px;
+  }
+  .DivEnunciadoinscricaoSite {
+    margin-top: 5px;
+  }
+  .ContainerImgCursos {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+  }
+  .ImgCursosEngCivil {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .ImgCursosEngProd {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .ImgCursosDireito {
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    margin-left: 0px;
+  }
+  .ImgCursosContabeis {
+    height: 150px;
+    width: 150px;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 425px) {
+  .DivSucesso {
+    font-size: 10px;
+  }
+  .DivEnunciadoinscricaoSite {
+    margin-top: 5px;
+  }
+  .ContainerImgCursos {
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .ImgCursosEngCivil {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .ImgCursosEngProd {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .ImgCursosDireito {
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    margin-left: 5px;
+  }
+  .ImgCursosContabeis {
+    margin-top: 5px;
+    height: 150px;
+    width: 150px;
+    margin-left: 0px;
+  }
+}

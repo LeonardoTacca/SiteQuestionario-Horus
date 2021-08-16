@@ -1,0 +1,40 @@
+.DivGeralPoliticaPrivacidade {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.TextoPrivacidade {
+  font-size: 32px;
+}
+@media (max-width: 1024px) {
+  .DivGeralPoliticaPrivacidade {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .TextoPrivacidade {
+    font-size: 20px;
+  }
+  @media (max-width: 320px) {
+    .DivGeralPoliticaPrivacidade {
+      display: flex;
+      justify-self: center;
+      align-content: center;
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    .TextoPrivacidade {
+      font-size: 10px;
+    }
+  }
+}

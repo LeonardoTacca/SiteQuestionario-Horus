@@ -1,0 +1,21 @@
+.blockCheck {
+  /* float: left; */
+  padding-left: 20px;
+}
+.divInputCheck {
+  margin-left: -20px;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+.divCheck {
+  display: inline-block;
+  width: 400px;
+  height: 20px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 20px;
+  padding-left: 7px;
+  color: black;
+}

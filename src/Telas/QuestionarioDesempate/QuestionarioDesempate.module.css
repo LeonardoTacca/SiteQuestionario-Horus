@@ -1,0 +1,88 @@
+.divCheck {
+  display: inline-block;
+  width: 400px;
+  height: 23px;
+  margin-top: 20px;
+  border: solid black 1px;
+  border-radius: 20px;
+  padding-left: 7px;
+  color: black;
+}
+.ContainerCheck {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  max-width: 550px;
+  margin: 10px;
+  color: #000;
+  align-content: left;
+}
+
+.blockCheck {
+  /* float: left; */
+  padding-left: 20px;
+}
+.divInputCheck {
+  margin-left: -25px;
+  margin-top: -20px;
+  display: inline-block;
+  flex-direction: row;
+  justify-content: left;
+}
+.labelQuestionario {
+  padding-left: 10px;
+  line-height: 2;
+  text-align: center;
+  color: black;
+  font-size: 14px;
+}
+.divTextoDesempate {
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.botaoEnviar {
+  width: 200px;
+  border-radius: 5px;
+  background-color: rgb(218, 102, 7);
+  text-align: center;
+  height: 35px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.DivBotaoEnviar {
+  width: 100%;
+  display: flex;
+  margin-left: 15%;
+  justify-content: right;
+  margin-top: 10px;
+}
+@media (max-width: 1024px) {
+  .divCheck {
+    width: 60%;
+  }
+  .input {
+    font-size: 50%;
+  }
+}
+@media (max-width: 425px) {
+  .divCheck {
+    width: 70%;
+    padding-top: 8px;
+  }
+  .input {
+    font-size: 40%;
+  }
+  .labelQuestionario {
+    font-size: 100%;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 320px) {
+  .DivBotaoEnviar {
+    margin-left: 20px;
+  }
+}
